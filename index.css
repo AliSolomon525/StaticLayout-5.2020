@@ -111,6 +111,7 @@ nav {
     margin-inline-end: 0px;
     text-decoration: none;
     color:#111;
+    margin-left:40px;
   }
 
   #link{
@@ -174,19 +175,30 @@ nav {
 }
 
 .ad-box{
-    display: block;
+    margin-left:60px;
     line-height: 0.7;
     font-size: 11px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     color: #678;
-    display: block;
-    text-wrap: wrap;
 }
 
 ol {
     list-style-type: none;
     margin-bottom: 60px;
+    margin:auto;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap:wrap;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+    font-family: Helvetica,Arial,sans-serif;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .item-sheet{
@@ -247,7 +259,7 @@ button{
 
 .update{
   color:#745fb5;
-  margin-left:23em;
+  margin-left:17em;
 }
 
 hr{
@@ -280,13 +292,13 @@ hr{
 
 #arrow2{
   margin-top:20px;
-  margin-left:13em;
+  margin-left:15em;
 }
 
 .footer-button{
   background: #745fb5;
   background-image: linear-gradient(15deg,#745fb5,#9a6dbb);
   height:12px;
-
+  left:50em;
 }
 
