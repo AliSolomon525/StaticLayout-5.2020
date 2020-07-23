@@ -176,17 +176,18 @@ nav {
     color: #111;
 }
 
-.ad-box{
+/* .ad-box{
+    display:flex;
+    flex-wrap:wrap;
     margin-left:60px;
     line-height: 0.7;
     font-size: 11px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     color: #678;
-}
+} */
 
 ol {
-    list-style-type: none;
     margin-bottom: 60px;
     margin:auto;
 }
@@ -199,8 +200,6 @@ ol {
     line-height: 1.4;
     text-align: center;
     font-family: Helvetica,Arial,sans-serif;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .item-sheet{
